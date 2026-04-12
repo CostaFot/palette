@@ -1,3 +1,98 @@
-# repo-template
+# palette
 
-Just a starter template for repos.
+Config and ideas for Command palette (Power Toys).
+
+![Current setup](screenshots/current_setup.png)
+
+## Backgrounds
+
+Custom background images for the palette are in [`/backgrounds`](./backgrounds/).
+
+To get the best result, set the dock background to **Image** mode with **Fill** fit. See the config below:
+
+![Dock background config](screenshots/dock_bg_config.png)
+
+| File | Preview |
+|------|---------|
+| `bg_1.png` | <img src="backgrounds/bg_1.png" width="600" height="40"> |
+| `bg_2.png` | <img src="backgrounds/bg_2.png" width="600" height="40"> |
+| `bg_3.png` | <img src="backgrounds/bg_3.png" width="600" height="40"> |
+
+
+## Ideas / Wishlist
+
+### System state
+- [ ] Toggle dark/light mode
+- [ ] Toggle night light (f.lux style, instant)
+- [ ] Switch audio output device (headphones ↔ speakers ↔ monitor)
+- [ ] Set a focus timer (25min, no notifications)
+- [ ] Toggle mic mute system-wide
+
+### Network / privacy
+- [ ] VPN on/off (WireGuard)
+- [ ] Toggle WiFi
+- [ ] Flush DNS cache
+- [ ] Show my public IP
+
+### Window management
+- [ ] Snap current layout as a "saved session"
+- [ ] Restore last session layout
+- [ ] Kill all except current window
+
+### Dev one-clicks
+- [ ] Start local dev server (repo-aware)
+- [ ] Kill port (pick from occupied ports list)
+- [ ] Copy local IP to clipboard
+- [ ] Git pull all repos in a folder
+
+### Content / clipboard
+- [ ] OCR screenshot → clipboard (snip + extract text instantly)
+- [ ] Paste as plain text (strips formatting)
+- [ ] Shrink clipboard image to X% before pasting
+- [ ] Translate clipboard text
+
+### The spicy ones
+- [ ] **Coffee mode** — mutes all, kills Slack/Teams, sets a timer, plays focus playlist
+- [ ] **Stream ready** — launches OBS, sets audio to headset, closes distracting apps
+- [ ] **Share this** — takes screenshot, uploads somewhere, copies link to clipboard
+
+### Dev / Productivity
+- [ ] **Dependency version checker** — paste a lib name, get latest version from Maven Central / npm
+- [ ] **Color picker to hex/rgb** — invoke PowerToys color picker from palette, copy result in your format of choice
+- [ ] **Cron expression explainer** — type `0 */6 * * *`, get "every 6 hours" in plain English
+- [ ] **HTTP status code lookup** — type 418, get the teapot
+- [ ] **UUID generator** — one keypress, fresh UUID in clipboard
+- [ ] **Gitignore generator** — type "Android Kotlin", get a ready gitignore (gitignore.io without the browser tab)
+- [ ] **Changelog viewer** — type a repo, pull latest GitHub releases inline
+- [ ] **ADB commands** — list connected devices, restart, clear app data, pull logcat
+- [ ] **Gradle task runner** — search tasks in a project, run them from palette
+- [ ] **Git stash browser** — list stashes by name, pop/drop/apply inline
+- [ ] **IP lookup** — type an IP, get geolocation + reverse DNS
+- [ ] **Base64 / hash tools** — encode/decode, md5/sha inline
+- [ ] **Regex tester** — type a pattern, test against an inline string, get match results
+- [ ] **JSON formatter** — paste ugly JSON, get it pretty, with a copy button
+- [ ] **Timezone converter** — "what time is 3pm EST in my timezone" without opening worldtimeserver.com
+
+### Windows power user
+- [ ] **Kill process by name** — fuzzy search running processes, kill on enter
+- [ ] **Hosts file manager** — list/add/toggle entries without running Notepad as admin
+- [ ] **Env variable viewer** — search environment variables, copy values
+- [ ] **Startup manager** — see/toggle what runs at startup, light alternative to Autoruns
+- [ ] **Wi-Fi password revealer** — shows saved network passwords via `netsh`
+- [ ] **Recently modified files** — list files changed in the last N minutes across a configured directory
+- [ ] **Window opacity slider** — set transparency on the currently focused window
+- [ ] **Clipboard history search** — searchable clipboard with fuzzy matching
+
+### Wacky / fun
+- [ ] **Random excuse generator** — professionally-worded reason to not attend a meeting, copy to clipboard
+- [ ] **Coin flip / dice roll / random picker** — for the truly indecisive
+- [ ] **Things bot shortcut** — type an entry directly into your Telegram things bot, POST to the Railway bot without opening Telegram
+- [ ] **Soulslike death counter** — track deaths per boss, save to a file
+- [ ] **Daily wisdom** — pull a random quote from a local JSON file (Dark Souls messages, "Therefore, seek..." etc.)
+
+### Unhinged
+- [ ] **Excuse-driven development** — "why didn't you ship" → blame-the-infrastructure excuse formatted as a Slack message, ready to paste
+- [ ] **Meeting energy level calculator** — input how many meetings you have today → outputs whether you're allowed to be productive
+- [ ] **Passive aggressive commit message generator** — "fixed it again because apparently last time wasn't enough"
+- [ ] **Copium dispenser** — type a bad metric ("0 blog views today"), get it reframed positively (Wall Street Bets flair)
+- [ ] **Dark Souls message builder** — construct a valid DS message from the actual word pool, copy to clipboard for use anywhere
