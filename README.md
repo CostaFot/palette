@@ -21,6 +21,27 @@ To get the best result, set the dock background to **Image** mode with **Fill** 
 
 ## Ideas / Wishlist
 
+### Status bar / rice-style readouts
+Things you'd see in a polybar/waybar/eww setup
+
+- [ ] **Battery status** — percentage, charging state, and estimated time remaining
+- [ ] **CPU usage** — current % across all cores, with per-core breakdown on demand
+- [ ] **RAM usage** — used / total, with top memory consumers listed
+- [ ] **GPU usage + VRAM** — utilisation % and VRAM used / total (NVIDIA/AMD)
+- [ ] **CPU / GPU temperature** — current temp with a configurable warning threshold
+- [ ] **Fan speeds** — RPM for each fan reported by the hardware
+- [ ] **Disk usage** — used / free per drive, with a bar indicator
+- [ ] **Network throughput** — live upload / download speed for the active interface
+- [ ] **System uptime** — how long since last boot, formatted cleanly
+- [ ] **Volume level** — current output volume, mute state, active sink name
+- [ ] **Screen brightness** — current brightness %, adjustable inline
+- [ ] **Now playing** — track + artist from whatever is playing (Spotify, browser, system media)
+- [ ] **Weather snapshot** — current conditions and temperature for your location (wttr.in style, no browser)
+- [ ] **Active window info** — title + process name of the currently focused window
+- [ ] **Virtual desktop indicator** — show which desktop you're on and switch inline
+- [ ] **Notification count** — pending Windows notifications, dismiss or jump to app from palette
+- [ ] **Kernel / OS info** — Windows build, uptime, hostname — neofetch in a keystroke
+
 ### System state
 - [ ] Toggle dark/light mode
 - [ ] Toggle night light (f.lux style, instant)
