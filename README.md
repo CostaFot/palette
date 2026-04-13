@@ -25,6 +25,7 @@ To get the best result, set the dock background to **Image** mode with **Fill** 
 Things you'd see in a polybar/waybar/eww setup
 
 - [ ] **Battery status** — percentage, charging state, and estimated time remaining
+- [ ] **Power draw** — current wattage being drawn from the wall / battery
 - [ ] **CPU usage** — current % across all cores, with per-core breakdown on demand
 - [ ] **RAM usage** — used / total, with top memory consumers listed
 - [ ] **GPU usage + VRAM** — utilisation % and VRAM used / total (NVIDIA/AMD)
@@ -32,14 +33,24 @@ Things you'd see in a polybar/waybar/eww setup
 - [ ] **Fan speeds** — RPM for each fan reported by the hardware
 - [ ] **Disk usage** — used / free per drive, with a bar indicator
 - [ ] **Network throughput** — live upload / download speed for the active interface
+- [ ] **WiFi signal + SSID** — current network name and signal strength
 - [ ] **System uptime** — how long since last boot, formatted cleanly
 - [ ] **Volume level** — current output volume, mute state, active sink name
+- [ ] **Microphone status** — live indicator showing if mic is active/muted
 - [ ] **Screen brightness** — current brightness %, adjustable inline
-- [ ] **Now playing** — track + artist from whatever is playing (Spotify, browser, system media)
+- [ ] **Now playing** — track + artist from Spotify or system media session, with play/pause/skip controls inline
+- [ ] **Audio visualiser** — live EQ bar graph of system audio output, rendered as ASCII/Unicode blocks in the palette
 - [ ] **Weather snapshot** — current conditions and temperature for your location (wttr.in style, no browser)
 - [ ] **Active window info** — title + process name of the currently focused window
 - [ ] **Virtual desktop indicator** — show which desktop you're on and switch inline
 - [ ] **Notification count** — pending Windows notifications, dismiss or jump to app from palette
+- [ ] **Do Not Disturb toggle** — flip Windows Focus Assist on/off from the palette
+- [ ] **Clock readout** — current time in a custom format (with seconds), useful as a quick glance without alt-tabbing
+- [ ] **Keyboard layout indicator** — current input language/layout, switch inline
+- [ ] **Pending updates** — count of available winget / Windows Update packages, open update UI on enter
+- [ ] **GitHub notifications** — unread notification count, open inbox on enter
+- [ ] **Todo count** — pull open item count from a local file or Todoist
+- [ ] **Color scheme switcher** — cycle between saved accent palettes (pywal-style, applied system-wide)
 - [ ] **Kernel / OS info** — Windows build, uptime, hostname — neofetch in a keystroke
 
 ### System state
