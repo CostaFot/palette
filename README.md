@@ -21,6 +21,43 @@ To get the best result, set the dock background to **Image** mode with **Fill** 
 
 ## Ideas / Wishlist
 
+### Animated creatures
+- **Walking cat** — tiny pixel cat walks across the bar
+- **Pixel crab** — sideways scuttling crab that bounces off the edges
+- **Snake** — a little snake that slithers around and grows over time
+
+### Reacts to your PC
+- **CPU fire** — a tiny flame that grows taller as CPU usage spikes
+- **RAM chomper** — a pac-man that gets fatter the more RAM you're using
+- **Disk spinner** — a drill that spins faster during disk I/O
+
+### Dumb but charming
+- **Bouncing DVD logo** — it just bounces. eternal.
+- **Tamagotchi** — a tiny pet that gets sad if you don't open the palette often enough
+- **Progress bar to the weekend** — always visible, always judging
+
+### Chaotic
+- **Stock ticker** — fake companies: `COPE +4.2%`, `CRINGE -12%`, `GRIND +0.1%`
+- **Live "thoughts"** — scrolling marquee: *"have you committed today?"*, *"that variable name is a choice"*
+
+### Clippy specifically
+- **Clippy** — sits in the corner, occasionally pops a speech bubble: *"It looks like you're opening the palette. Need help?"*, *"Have you tried turning it off and on again?"*
+- Reacts to time of day: *"Still coding at 2am? Interesting choice."*
+- Gets increasingly unhinged the longer your PC uptime is
+
+### More old school nostalgia
+- **Bonzi Buddy** — the purple gorilla. says nothing. just watches.
+- **Flying Toasters** — the After Dark screensaver but in the dock strip
+- **Bob** (Microsoft Bob) — a little house that you can never actually enter
+- **XP Error Dog** — the "did you mean...?" search dog from Windows XP just vibing
+
+### Cursed productivity
+- **Pomodoro Tomato** — a tiny tomato that slowly turns red then explodes
+- **Shame Counter** — counts how many times you've opened and closed the palette without doing anything
+- **The Time** — just the current time, but displayed wrong by exactly 1 minute to keep you anxious
+- **Git Blame Face** — a face that gets more disappointed as your uncommitted changes pile up
+
+
 ### Status bar / rice-style readouts
 Things you'd see in a polybar/waybar/eww setup
 
